@@ -1,0 +1,66 @@
+name: technopedia
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #Fancy animated bottom navigation bar
+  fancy_bottom_navigation: ^0.3.3
+  
+  #Updates app launcher icon
+  flutter_launcher_icons: ^0.9.0
+
+  #Google sheets integration
+  gsheets: ^0.2.7
+
+  #A huge collection of material design icons
+  material_design_icons_flutter: ^4.0.5955
+
+  #Share content to other apps
+  share: ^2.0.1
+
+  #Convert speech to text
+  speech_to_text: ^3.2.0
+
+  #SQLite Database
+  sqflite: ^2.0.0+3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+#Launcher icon configuration
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/fonts/Roboto/
+
+
+
