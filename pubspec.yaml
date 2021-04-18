@@ -36,6 +36,12 @@ dependencies:
   #SQLite Database
   sqflite: ^2.0.0+3
 
+  #Markdown Renderer
+  flutter_markdown: ^0.6.1
+
+  #Performs http request
+  http: ^0.12.2
+
 
 dev_dependencies:
   flutter_test:

@@ -1,8 +1,11 @@
 ///The startup file of the application
 import 'package:flutter/material.dart';
 import 'view/home.dart';
+import 'util/database.dart';
 
-void main() {
+void main() async {
+	await syncTermsData();
+
 	runApp(
 		Technopedia()
 	);

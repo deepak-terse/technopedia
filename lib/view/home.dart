@@ -3,8 +3,9 @@ import 'package:fancy_bottom_navigation/fancy_bottom_navigation.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 import '../view/terms.dart';
+import '../view/trending.dart';
 import '../view/dashboard.dart';
-import '../view/settings.dart';
+import '../view/bookmarks.dart';
 
 class Home extends StatefulWidget {
 	@override
@@ -12,7 +13,7 @@ class Home extends StatefulWidget {
 }
 
 class HomeState extends State<Home> {
-		int currentPosition = 1;
+	int currentPosition = 1;
 
 	@override
 	Widget build(BuildContext context) {
@@ -25,6 +26,7 @@ class HomeState extends State<Home> {
 					TabData(iconData: tabs[0].icon, title: tabs[0].title),
 					TabData(iconData: tabs[1].icon, title: tabs[1].title),
 					TabData(iconData: tabs[2].icon, title: tabs[2].title),
+					TabData(iconData: tabs[3].icon, title: tabs[3].title),
 				],
 				initialSelection: 1,
 				onTabChangedListener: (position) {
@@ -58,6 +60,7 @@ class CustomWidget {
 ///These are referred using the index of the List
 List<CustomWidget> tabs = <CustomWidget>[
 	CustomWidget(title: "Terms", icon: MdiIcons.fromString('file-word-box-outline'), widget: Terms()),
+	CustomWidget(title: "Trending", icon: MdiIcons.fromString('fire'), widget: Trending()),
 	CustomWidget(title: "Dashboard", icon: MdiIcons.fromString('view-dashboard'), widget: Dashboard()),
-	CustomWidget(title: "Settings", icon: MdiIcons.fromString('cog'), widget: Settings()),
+	CustomWidget(title: "Bookmarks", icon: MdiIcons.fromString('bookmark'), widget: Bookmarks()),
 ];
