@@ -14,7 +14,7 @@ class Trending extends StatefulWidget {
 		title: 'HTML',
 		subTitle:'Markup Language',
 		category: 'Programming Language',
-		descriptionUrl: 'https://raw.githubusercontent.com/deepak-terse/wysa-backend/main/README.md'
+		descriptionUrl: 'https://raw.githubusercontent.com/deepak-terse/technopedia-docs/main/language/HTML.md'
 	);
 
 	@override
