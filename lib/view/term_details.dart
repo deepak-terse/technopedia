@@ -4,6 +4,7 @@ import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:share/share.dart';
 
 import '../model/term_model.dart';
+import '../view/customWebView.dart';
 
 class TermDetails extends StatefulWidget {
 	TermDetails(this.term);
@@ -40,7 +41,15 @@ class TermDetailsState extends State<TermDetails> {
 									final String markDown = snapshot.data ?? "";						
 									return Expanded(
 										child: Markdown(
-											data: markDown
+											data:markDown,
+											onTapLink: (text, url, title) { /* some changes in params */
+												Navigator.push(
+													context,
+													MaterialPageRoute(builder: (context) => Center(
+														child: CustomWebView(text, url)
+													))
+												);
+											}
 										)
 									);
 								}

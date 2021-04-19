@@ -71,6 +71,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.0.1"
+  csslib:
+    dependency: transitive
+    description:
+      name: csslib
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.16.2"
   fake_async:
     dependency: transitive
     description:
@@ -97,6 +104,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.9.0"
+  flutter_link_preview:
+    dependency: "direct main"
+    description:
+      name: flutter_link_preview
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.5.6"
   flutter_markdown:
     dependency: "direct main"
     description:
@@ -114,6 +128,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  gbk2utf8:
+    dependency: transitive
+    description:
+      name: gbk2utf8
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.1"
   googleapis:
     dependency: transitive
     description:
@@ -135,6 +156,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.7"
+  html:
+    dependency: transitive
+    description:
+      name: html
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.14.0+4"
   http:
     dependency: "direct main"
     description:
@@ -336,6 +364,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.0"
+  webview_flutter:
+    dependency: "direct main"
+    description:
+      name: webview_flutter
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.4"
   xml:
     dependency: transitive
     description:
