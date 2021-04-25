@@ -42,6 +42,7 @@ class TermDetailsState extends State<TermDetails> {
 									return Expanded(
 										child: Markdown(
 											data:markDown,
+											styleSheet: MarkdownStyleSheet.fromTheme(Theme.of(context)).copyWith(textScaleFactor: 1.2, h4: TextStyle(color: Colors.transparent, height: 2)),
 											onTapLink: (text, url, title) { /* some changes in params */
 												Navigator.push(
 													context,
@@ -88,7 +89,7 @@ class TermDetailsState extends State<TermDetails> {
 	Widget buildTitleSection() {
 		return Center(
 			child: Text(
-				widget.term.title,
+				"\n" + widget.term.title,
 				style: TextStyle(
 					fontSize: 30.0,
 					fontWeight: FontWeight.bold

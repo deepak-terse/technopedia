@@ -56,6 +56,7 @@ class TrendingState extends State<Trending> {
 												return Expanded(
 													child: Markdown(
 														data: markDown,
+														styleSheet: MarkdownStyleSheet.fromTheme(Theme.of(context)).copyWith(textScaleFactor: 1.1, h4: TextStyle(color: Colors.transparent, height: 2)),
 														physics: const NeverScrollableScrollPhysics(),
 													)
 												);
