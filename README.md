@@ -34,32 +34,34 @@
 
 ## Build Setup
 
+### Clone the project
 ``` bash
-# clone the project
-git clone https://github.com/deepak-terse/it-wasnt-me.git
-cd it-wasnt-me
-
-# install dependencies
-flutter pub get
-
-# run the application
-flutter run
-
-# hot reload
-Press r after flutter run
+git clone https://github.com/deepak-terse/nearme-app.git
+cd nearme-app
 ```
 
+### Install dependencies
+``` bash
+flutter pub get
+```
 
-## Dependencies
+### Copy the google auth credentials for the project 
+- Copy the json from https://drive.google.com/file/d/1KvhV0n7FhjkinvpF7wHcsA_HtrHFkk8a
+- Paste it at this location - `/lib/util/gsheets.dart` as instructed in that file
 
-*  cupertino_icons: ^0.1.3
-*  fancy_bottom_navigation: ^0.3.2
-*  flutter_launcher_icons: ^0.7.5
-*  gsheets: ^0.2.4
-*  material_design_icons_flutter: ^4.0.5345
-*  provider: ^4.1.3
-*  share: ^0.6.4+3
-*  sqflite: ^1.3.1
+### Run the application
+``` bash
+flutter run
+```
+
+### Hot reload
+Press r after flutter run
+
+### Build a release version
+``` bash
+flutter clean
+flutter build apk --target-platform=android-arm64
+```
 
 
 ## References
