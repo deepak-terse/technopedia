@@ -28,9 +28,11 @@
 
 
 ## Screenshots
-<img width="150"src="screenshot_1.jpg">
-<img width="150"src="screenshot_2.jpg">
-<img width="150"src="screenshot_3.jpg">
+<div align="center">
+  <img width="250"src="screenshot_1.jpeg"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img width="250"src="screenshot_2.jpeg"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img width="250"src="screenshot_3.jpeg">
+</div>
 
 
 ## Prerequisites
