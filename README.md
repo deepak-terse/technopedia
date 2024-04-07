@@ -27,6 +27,12 @@
 </div>
 
 
+## Screenshots
+<img width="150"src="screenshot_1.jpg">
+<img width="150"src="screenshot_2.jpg">
+<img width="150"src="screenshot_3.jpg">
+
+
 ## Prerequisites
 *  Flutter
 *  Dart
