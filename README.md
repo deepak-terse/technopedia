@@ -29,8 +29,8 @@
 
 ## Screenshots
 <div align="center">
-  <img width="250"src="screenshot_1.jpeg"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img width="250"src="screenshot_2.jpeg"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img width="250"src="screenshot_1.jpeg"> &nbsp;&nbsp;
+  <img width="250"src="screenshot_2.jpeg"> &nbsp;&nbsp;
   <img width="250"src="screenshot_3.jpeg">
 </div>
 
